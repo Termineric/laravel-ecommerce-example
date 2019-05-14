@@ -39,18 +39,18 @@ The `money_format` function does not work in Windows. Take a look at [this threa
 
 ## make work on windows OS
 *********************************
-* change by Eric F. Zoons       *
-* first week laravel            *
-* make work on windows OS       *
-* only for Stripe Tested        *
-* Paypal not tested i dont uses *
+* change by Eric F. Zoons       
+* first week laravel            
+* make work on windows OS       
+* only for Stripe Tested        
+* Paypal not tested i dont uses 
 *********************************
   Have made some change so more simple uses on windows OS 
   it check if money_format exist if not put drop-in function if fund some site
   I don't like that Shop Basic Currency is hard-coded make in the contolers en blads so put in the .ENV file
   have 2 new var's in .ENV file
     1. SHOP_CURRENCY_TXT=EUR
-    2. SHOP_CURRENCY_SIGN=€
+    1. SHOP_CURRENCY_SIGN=€
 for this work remove from the blades and controllers & models  
 
 
@@ -63,15 +63,16 @@ If you would like to follow along from a particular point, follow these instruct
 1. Follow the rest of the steps above. Instead of `php artisan ecommerce:install`, migrate and seed the normal way with `php artisan migrate --seed`
 
 
-## Ad attributes to products 
+## Add attributes to products 
 **********************************************
-* This Will be change by Eric F. Zoons       *
+* This Will be change by Eric F. Zoons       
+* This will be done soon but first change style of the website to TerminEric.eu site style
 **********************************************
   1. Make table for attributes 
-  2. Pivot table to connect to products
-  3. All attributes can have add on price
-  4. Group pivot table
-  5. All attribute will have a picture
+  1. Pivot table to connect to products
+  1. All attributes can have add on price
+  1. Group pivot table
+  1. All attribute will have a picture
 
-  This will be done soon but first change style of the website to TerminEric.eu site style
+ 
 
