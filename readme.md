@@ -37,6 +37,23 @@ The `money_format` function does not work in Windows. Take a look at [this threa
 1. In `app/Product.php` replace `money_format` line with `return '$'.number_format($this->price / 100, 2);`
 1. In `config/cart.php` set the `thousand_seperator` to an empty string or you might get a 'non well formed numeric value encountered' error. It conflicts with `number_format`.
 
+## make work on windows OS
+*********************************
+* change by Eric F. Zoons       *
+* first week laravel            *
+* make work on windows OS       *
+* only for Stripe Tested        *
+* Paypal not tested i dont uses *
+*********************************
+  Have made some change so more simple uses on windows OS 
+  it check if money_format exist if not put drop-in function if fund some site
+  I don't like that Shop Basic Currency is hard-coded make in the contolers en blads so put in the .ENV file
+  have 2 new var's in .ENV file
+    1. SHOP_CURRENCY_TXT=EUR
+    2. SHOP_CURRENCY_SIGN=€
+for this work remove from the blades and controllers & models  
+
+
 ## Starting from a particular point
 
 If you would like to follow along from a particular point, follow these instructions. I'm going to be starting from my starting point in the first video of the series. You can choose any point by replacing the hash with [any particular commit](https://github.com/drehimself/laravel-ecommerce-example/commits/master).
