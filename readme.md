@@ -61,3 +61,17 @@ If you would like to follow along from a particular point, follow these instruct
 1. Clone the repo and `cd` into it
 1. `git checkout f4f651a8a35ebb2ff38ba15771fd65c93051f942`
 1. Follow the rest of the steps above. Instead of `php artisan ecommerce:install`, migrate and seed the normal way with `php artisan migrate --seed`
+
+
+## Ad attributes to products 
+**********************************************
+* This Will be change by Eric F. Zoons       *
+**********************************************
+  1. Make table for attributes 
+  2. Pivot table to connect to products
+  3. All attributes can have add on price
+  4. Group pivot table
+  5. All attribute will have a picture
+
+  This will be done soon but first change style of the website to TerminEric.eu site style
+
