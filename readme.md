@@ -67,8 +67,6 @@ If you would like to follow along from a particular point, follow these instruct
 **********************************************
 * This Will be change by Eric F. Zoons       
 * This will be done soon but first change style of the website to TerminEric.eu site style
-* i do this to learn Laravel before here i only de vanilla php all most no framework (Yii1 & 2) or OOP(small parts) 
-* 90% off time i work with Delphi (current Pro version )
 **********************************************
   1. Make table for attributes 
   1. Pivot table to connect to products
